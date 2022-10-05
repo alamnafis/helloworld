@@ -2,4 +2,4 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/gcr.io/droneup-k8s-sandbox/github.com/alamnafis/helloworld:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/gcr.io/droneup-k8s-sandbox/github.com/alamnafis/helloworld:$SHORT_SHA', '.']  
+  args: ['push', 'gcr.io/gcr.io/droneup-k8s-sandbox/github.com/alamnafis/helloworld:$SHORT_SHA']  
